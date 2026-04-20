@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MidTN Pressure Washing</title>
+
+<style>
+body {
+    font-family: Arial;
+    margin:0;
+    background:#f4f4f4;
+}
+
+.hero {
+background:url('https://images.unsplash.com/photo-1568605114967-8130f3a36994') center/cover;
+color:white;
+text-align:center;
+padding:80px 20px;
+}
+
+.hero h1 {font-size:40px;}
+.hero p {font-size:18px;}
+
+.hero a {
+display:inline-block;
+margin:10px;
+padding:12px 20px;
+background:#38ada9;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+section {
+padding:30px;
+background:white;
+margin:20px;
+border-radius:10px;
+}
+
+.images {
+display:flex;
+flex-wrap:wrap;
+gap:15px;
+}
+
+.images img {
+width:100%;
+max-width:300px;
+border-radius:10px;
+}
+
+.flyer {
+text-align:center;
+}
+
+.flyer img {
+width:100%;
+max-width:500px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+form input, textarea {
+width:100%;
+padding:10px;
+margin-top:10px;
+}
+
+button {
+padding:12px;
+background:#0a3d62;
+color:white;
+border:none;
+}
+
+.sticky {
+position:fixed;
+bottom:0;
+width:100%;
+background:#0a3d62;
+text-align:center;
+padding:10px;
+}
+
+.sticky a {
+color:white;
+margin:10px;
+text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+<h1>MidTN Pressure Washing</h1>
+<p>Make Your Property Look Brand New</p>
+<a href="tel:9319813374">📞 Call</a>
+<a href="sms:9319813374">💬 Text</a>
+</div>
+
+<section>
+<h2>Why Choose Us</h2>
+<ul>
+<li>✔ Boosts curb appeal instantly</li>
+<li>✔ Removes dirt, mold, stains</li>
+<li>✔ Protects your home & equipment</li>
+<li>✔ Fast & affordable service</li>
+<li>✔ Satisfaction guaranteed</li>
+</ul>
+</section>
+
+<section>
+<h2>Our Work</h2>
+
+<div class="images">
+<img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994">
+<img src="https://images.unsplash.com/photo-1597006354775-6b5b2b1c6f36">
+<img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d">
+<img src="https://images.unsplash.com/photo-1591825729269-caeb344f6df2">
+<img src="https://images.unsplash.com/photo-1581091215367-59ab6b3d1b47">
+</div>
+
+</section>
+
+<section class="flyer">
+<h2>Official Flyer</h2>
+
+<!-- YOUR FLYER -->
+<img src="flyer.jpg" alt="MidTN Pressure Washing Flyer">
+
+<p><strong>Call or Text: 931-981-3374</strong></p>
+<p>Serving Middle Tennessee</p>
+
+</section>
+
+<section>
+<h2>Get a Free Quote</h2>
+
+<form action="https://formspree.io/f/mqewdzwz" method="POST">
+<input type="text" name="name" placeholder="Your Name" required>
+<input type="email" name="email" placeholder="Your Email" required>
+<textarea name="message" placeholder="What do you need cleaned?" required></textarea>
+<button type="submit">Send Request</button>
+</form>
+
+<p>📧 judsonpoag92@gmail.com</p>
+<p>📞 931-981-3374</p>
+
+</section>
+
+<div class="sticky">
+<a href="tel:9319813374">Call</a>
+<a href="sms:9319813374">Text</a>
+</div>
+
+</body>
+</html>
